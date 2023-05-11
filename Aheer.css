@@ -1,0 +1,139 @@
+
+
+body {
+  /* background-color: coral; */
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: cursive;
+  color: wheat;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+  margin-top: 4px;
+}
+.navigation:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: coral;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.logo {
+  width: 200px;
+}
+.logo img {
+  width: 100%;
+  object-fit: cover;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+#about {
+  width: 100%;
+  background-color: yellow;
+}
+.center {
+  text-align: center;
+}
+.content {
+  text-align: center;
+  padding: 14px;
+}
+#aboutImg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+#aboutImg:hover {
+  border-radius: 10px;
+  filter: none;
+  transform: rotate(1440deg);
+}
+#place {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+#place button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+#gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+#gallery img {
+  width: 23%;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+}
+#sports{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.sport1 img, .sport2 img{
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+}
+.sport1,.sport2{
+  width: 30%;
+  background-color: rgb(29, 19, 19);
+}
+.sport2{
+  float: right;
+  margin-top:-525px;
+  margin-bottom: 100px;
+}
+#favouritebook{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(68, 69, 70);
+}
+.bookinfo{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.bookinfo p{
+  width: 50%;
+  margin-right: 65px;
+}
+.bookinfo img{
+  width: 25%;
+  margin-left: 65px;
+}
+.sport1{
+  color: blue;
+}
+.sport2{
+  color: red;
+}
